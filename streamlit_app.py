@@ -63,3 +63,5 @@ import requests
 fruityvice_response = requests.get("https://fruityvice.com/api/fruit/" + "Kiwi")
 #streamlit.text(fruityvice_response.json())
 
+my_cur.execute("Insert into fruit_load_list values ('from streamlit')")
+
